@@ -198,6 +198,10 @@
         width:520px;
         height :110px;
 }}
+
+#sectin1{
+    overflow-x: hidden;
+}
 /* ends here */
 
 

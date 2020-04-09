@@ -9,15 +9,15 @@ function Home(){
 
     return(
 
-        <div id = "section1">
+        <div id = "section1" className = "left46">
         
-        <div style = {{backgroundImage: "url(" + require("../assets/images/image3.jpg") + ")"
-    ,height:640,
+        <div  style = {{backgroundImage: "url(" + require("../assets/images/image3.jpg") + ")"
+    ,minHeight:640,
     backgroundPosition: 'center',
     backgroundSize: 'cover',
         backgroundRepeat: 'noRepeat',
-        marginTop:-15
-    
+        marginTop:-15,
+       
     }}>
     <div className="filter" />
     <Container >
