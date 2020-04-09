@@ -2,8 +2,8 @@
 
 import React from 'react';
 import {Container, Row,Col} from 'reactstrap';
-//import img5 from '../assets/images/image5.png';
-//import img6 from '../assets/images/image6.png';
+import img5 from '../assets/images/image5.jpg';
+import img6 from '../assets/images/image6.jpg';
 
 
 function Project(){
@@ -20,7 +20,7 @@ function Project(){
                                 
                                 {/*<img src = {img5}  className = "left28"/> */}
                                 <div className="left30">
-	    {/*<img src= {img5}  className="left28" />*/}
+	<img src= {img5}  className="left28" />
 	<div className="left31">
 		<div className="left32">
             <h1>Dolyrus TimberLand</h1>
@@ -37,7 +37,7 @@ function Project(){
                              <Col xs = "auto">
                              
                              <div className="left30">
-	    {/*<img src={img6}  className="left28" />*/}
+	<img src={img6}  className="left28" />
 	<div className="left31">
 		<div className="left32">
         <h1>Dolyrus BarberShop</h1>
