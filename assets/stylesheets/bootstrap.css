@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   min-height: 640px;
   margin-bottom: -20px;
-  overflow-x: hidden;
+  width:100%;
 
 }
 body {

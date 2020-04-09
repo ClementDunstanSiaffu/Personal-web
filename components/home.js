@@ -9,7 +9,7 @@ function Home(){
 
     return(
 
-        <div id = "section1" className = "left46">
+        <div id = "section1" >
         
         <div  style = {{backgroundImage: "url(" + require("../assets/images/image3.jpg") + ")"
     ,minHeight:640,
@@ -17,7 +17,7 @@ function Home(){
     backgroundSize: 'cover',
         backgroundRepeat: 'noRepeat',
         marginTop:-15,
-       
+     
     }}>
     <div className="filter" />
     <Container >

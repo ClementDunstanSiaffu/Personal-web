@@ -13,7 +13,7 @@ function App(){
 
   return(
          
-    <div >
+    <div className = "left46">
     <Head>
       <title>Clement D Siaffu</title>
      
