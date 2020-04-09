@@ -20,7 +20,7 @@ function Project(){
                                 
                                 {/*<img src = {img5}  className = "left28"/> */}
                                 <div className="left30">
-	    <img src= {img5}  className="left28" />
+	    {/*<img src= {img5}  className="left28" />*/}
 	<div className="left31">
 		<div className="left32">
             <h1>Dolyrus TimberLand</h1>
@@ -37,7 +37,7 @@ function Project(){
                              <Col xs = "auto">
                              
                              <div className="left30">
-	    <img src={img6}  className="left28" />
+	    {/*<img src={img6}  className="left28" />*/}
 	<div className="left31">
 		<div className="left32">
         <h1>Dolyrus BarberShop</h1>
