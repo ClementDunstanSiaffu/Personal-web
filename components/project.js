@@ -2,8 +2,8 @@
 
 import React from 'react';
 import {Container, Row,Col} from 'reactstrap';
-import img5 from '../assets/images/image5.png';
-import img6 from '../assets/images/image6.png';
+//import img5 from '../assets/images/image5.png';
+//import img6 from '../assets/images/image6.png';
 
 
 function Project(){
