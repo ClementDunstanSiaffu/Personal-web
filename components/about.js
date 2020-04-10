@@ -42,10 +42,13 @@ function About (){
       
             <p className= "left8" >
              Hello,My name is Clement Dunstan Siaffu,I am creative JavaScript web developer.
+            
             </p>
-            <span className = "left43">"In the magical universe there are no coincidences
-             and there are no accidents.Nothing happens unless someone wills it to happen"-WILLIAM S.BURROUGHS
-             </span>
+            <div className = "left43">"In the magical universe there are no coincidences
+                                       and there are no accidents.Nothing happens unless 
+                                       someone wills it to happen"-WILLIAM S.BURROUGHS
+             </div>
+             
             </div>
 
                     </Col>

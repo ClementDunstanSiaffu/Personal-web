@@ -12,7 +12,7 @@ function Ability(){
                 <div data-aos="slide-right">
                 <div>
                 <h1 className = "left5">Abilities</h1>
-                <p className = "left11">“Life without knowledge is death in disguise.”- Talib Kweli</p>
+                <p className = "left6">“Life without knowledge is death in disguise.”- Talib Kweli</p>
                 </div>
                 
                 <div className = "left15">
