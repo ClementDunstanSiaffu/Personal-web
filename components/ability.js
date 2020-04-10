@@ -101,10 +101,10 @@ function Ability(){
                  </Row>
                  <div >
                      <p className = "left17">This project was built using nextjs <br />
-            <Button className="left18" style={{backgroundColor:"lightseagreen",borderColor:"lightseagreen",
+           <a href ="https://github.com/ClementDunstanSiaffu/Personal-web"> <Button className="left18" style={{backgroundColor:"lightseagreen",borderColor:"lightseagreen",
            
         }}>
-            <span className = "left39">See project on Github</span></Button></p>
+            <span className = "left39">See project on Github</span></Button></a></p>
                      
                     
                  </div>
