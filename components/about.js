@@ -2,7 +2,7 @@
 
 import React,{useEffect,Component} from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import img5 from '../assets/images/image4.jpg';
+import img5 from '../assets/images/graduu.jpg';
 import AOS from 'aos'
 import 'aos/dist/aos.css';   
  
@@ -41,8 +41,11 @@ function About (){
 
       
             <p className= "left8" >
-             Hello,My name is Clement Dunstan Siaffu,I am creative JavaScript web developer
+             Hello,My name is Clement Dunstan Siaffu,I am creative JavaScript web developer.
             </p>
+            <span className = "left43">"In the magical universe there are no coincidences
+             and there are no accidents.Nothing happens unless someone wills it to happen"-WILLIAM S.BURROUGHS
+             </span>
             </div>
 
                     </Col>

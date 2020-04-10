@@ -21,6 +21,7 @@ function Project(){
                                 {/*<img src = {img5}  className = "left28"/> */}
                                 <div className="left30">
 	<img src= {img5}  className="left28" />
+    <a href = "https://stark-island-63709.herokuapp.com/">
 	<div className="left31">
 		<div className="left32">
             <h1>Dolyrus TimberLand</h1>
@@ -29,6 +30,7 @@ function Project(){
             <h3>Expressjs,EJS,MongoDB</h3>
          </div>
 	</div>
+    </a>
    </div>
                                 
                                 
@@ -38,14 +40,18 @@ function Project(){
                              
                              <div className="left30">
 	<img src={img6}  className="left28" />
+    <a href = "https://true-saloon-next.now.sh/">
 	<div className="left31">
+   
 		<div className="left32">
         <h1>Dolyrus BarberShop</h1>
             <p>This is the demo website for barbershop.</p>
             <h2>Tags:</h2>
             <h3><span className = "left33">Nextjs,Express API,MongoDB</span></h3>
             </div>
+     
 	</div>
+    </a>
    </div>
                                  
                                
