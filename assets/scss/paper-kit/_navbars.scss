@@ -7,18 +7,54 @@
     }
   }
 }
-.navbar {
-    border: $none;
-    font-size: $font-size-base;
-    transition: all 0.4s;
-    -webkit-transition: all 0.4s;
-    padding: 0;
-    background: $white-color;
-    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+
+@media only screen and (max-width:767px){
+  .navbar {
+      border: $none;
+      font-size: $font-size-base;
+      transition: all 0.4s;
+      -webkit-transition: all 0.4s;
+      padding: 0;
+      background: $white-color;
+      box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+  }}
+  @media only screen and (min-width:768px){
+    .navbar {
+        border: $none;
+        font-size: $font-size-base;
+        transition: all 0.4s;
+        -webkit-transition: all 0.4s;
+        padding: 0px 0px 60px 0px;
+        background: $white-color;
+        box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+    }}
+    @media only screen and (min-width:992px){
+      .navbar {
+          border: $none;
+          font-size: $font-size-base;
+          transition: all 0.4s;
+          -webkit-transition: all 0.4s;
+          padding: 0;
+          background: $white-color;
+          box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+      }}
 
 
-    @media only screen and (max-width:480px){
-      .navbar-brand {
+  /* ende of navbar */
+  .navbar{
+      @media only screen and (max-width:480px){
+         .navbar-brand {
+          font-weight: $font-weight-bold;
+          margin: $navbar-margin-brand;
+          padding: $navbar-padding-brand;
+          font-size: $font-size-base;
+          color: $default-color;
+          text-transform: uppercase;
+          margin-top: -20px;
+          margin-left: 160px;
+    }}
+    @media only screen and (min-width:480px){
+       .navbar-brand {
         font-weight: $font-weight-bold;
         margin: $navbar-margin-brand;
         padding: $navbar-padding-brand;
@@ -26,9 +62,21 @@
         color: $default-color;
         text-transform: uppercase;
         margin-top: -20px;
-        margin-left: 160px;
+       
+        
   }}
-  @media only screen and (min-width:480px){
+  @media only screen and (min-width:768px){
+    .navbar-brand {
+      font-weight: $font-weight-bold;
+      margin: $navbar-margin-brand;
+      padding: $navbar-padding-brand;
+      font-size: $font-size-base;
+      color: $default-color;
+      text-transform: uppercase;
+      margin-top: 20px;
+     
+  }}
+  @media only screen and (min-width:992px){
     .navbar-brand {
       font-weight: $font-weight-bold;
       margin: $navbar-margin-brand;
@@ -37,96 +85,97 @@
       color: $default-color;
       text-transform: uppercase;
       margin-top: -20px;
-     
       
-}}
-@media only screen and (min-width:768px){
-  .navbar-brand {
-    font-weight: $font-weight-bold;
-    margin: $navbar-margin-brand;
-    padding: $navbar-padding-brand;
-    font-size: $font-size-base;
-    color: $default-color;
-    text-transform: uppercase;
-    margin-top: 20px;
-   
-}}
-@media only screen and (min-width:992px){
-  .navbar-brand {
-    font-weight: $font-weight-bold;
-    margin: $navbar-margin-brand;
-    padding: $navbar-padding-brand;
-    font-size: $font-size-base;
-    color: $default-color;
-    text-transform: uppercase;
-    margin-top: -20px;
+  }}
+  @media only screen and (min-width:1200px){
+     .navbar-brand {
+      font-weight: $font-weight-bold;
+      margin: $navbar-margin-brand;
+      padding: $navbar-padding-brand;
+      font-size: $font-size-base;
+      color: $default-color;
+      text-transform: uppercase;
+      margin-top: -20px;
     
-}}
-@media only screen and (min-width:1200px){
-  .navbar-brand {
-    font-weight: $font-weight-bold;
-    margin: $navbar-margin-brand;
-    padding: $navbar-padding-brand;
-    font-size: $font-size-base;
-    color: $default-color;
-    text-transform: uppercase;
-    margin-top: -20px;
+  }} }
+  .navbar .navbar-toggler:focus {
+        outline: none;
+      }
+      .navbar .form-control-feedback {
+        padding-left: 0px;
+      }
   
-}} 
-    .navbar-toggler:focus {
-      outline: none;
-    }
-    .form-control-feedback {
-      padding-left: 0px;
-    }
-
-
-    @media only screen and (max-width:480px){
+      .navbar {
+      @media only screen and (max-width:480px){
+        &:not([class*="bg"]) {
+          .navbar-toggler {
+           
+            .navbar-toggler-bar {
+              background: $default-color !important;
+              margin-top: 12px;
+              margin-left: 15px;
+  
+  
+           
+              
+    }}}}
+  
+      @media only screen and (min-width:480px){
+         &:not([class*="bg"]) {
+          .navbar-toggler {
+            .navbar-toggler-bar {
+              background: $default-color !important;
+              margin-top: 13px;
+              margin-left: 15px;
+    }}}}
+    @media only screen and (min-width:768px){
       &:not([class*="bg"]) {
         .navbar-toggler {
-         
           .navbar-toggler-bar {
             background: $default-color !important;
-            margin-top: 12px;
-            margin-left: 15px;
-
-
-         
+            margin-top: 10px;
             
   }}}}
 
-    @media only screen and (min-width:480px){
-      &:not([class*="bg"]) {
-        .navbar-toggler {
-          .navbar-toggler-bar {
-            background: $default-color !important;
-            margin-top: 13px;
-            margin-left: 15px;
-  }}}}
-  @media only screen and (min-width:768px){
-    &:not([class*="bg"]) {
-      .navbar-toggler {
-        .navbar-toggler-bar {
-          background: $default-color !important;
-          margin-top: 10px;
-          
-}}}}
 
 /*navbar-nav */
 
-
+@media only screen and (max-width:991px){
   .navbar-nav {
     .nav-item .nav-link {
         line-height: 1.6;
         margin: $navbar-margin-a;
-        padding: $navbar-padding-a;
+        padding: 5px 10px;
         opacity: .8;
-        font-size: $font-size-small;
+        font-size:11px;
         text-transform: uppercase;
-        font-weight: 600;
+        font-weight:lighter;
         color: $default-color;
         margin-left:20px;
+    }}}
+    @media only screen and (min-width:992px){
+      .navbar-nav {
+        .nav-item .nav-link {
+            line-height: 1.6;
+            margin: $navbar-margin-a;
+            padding: $navbar-padding-a;
+            opacity: .8;
+            font-size: $font-size-small;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: $default-color;
+            margin-left:20px;
+        }}}
+    
 
+
+
+
+
+    /* ends here */
+    /* start here */
+    .navbar-nav {
+      .nav-item .nav-link {
         p {
           margin: 0px 0px;
           text-transform: uppercase;
@@ -300,12 +349,12 @@
 
 @media only screen and (max-width:767px){
   .nav-item .nav-link:not(.btn){
-    color: $black-color;
+    color: $white-color;
     border-color: $white-color;
 }}
 @media only screen and (min-width:768px){
   .nav-item .nav-link:not(.btn){
-    color: $black-color;
+    color: $white-color;
     border-color: $white-color;
     margin-top: 35px;
 }}
@@ -422,7 +471,7 @@
     @media only screen and (min-width:768px ){
       .navbar-transparent {
         .navbar-nav li{
-          margin-top:-20px
+          margin-top:-40px
   }}}  
   
   @media only screen and (min-width:992px ){

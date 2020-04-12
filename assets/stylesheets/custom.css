@@ -1,18 +1,54 @@
+
 /* for the header.js */ 
 .right{
     margin-left: -90px;
     margin-right: 280px;
 }
-
-
+/* left48 */
+@media only screen and (max-width:767px){
+.left48{
+    margin:0px auto;
+    padding-right: 20px;
+    
+}}
+@media only screen and (min-width:768px){
+    .left48{
+        margin:0px auto;
+        padding-right: 340px;
+        
+    }}
+    @media only screen and (min-width:992px){
+        .left48{
+           
+            padding-right: 0px;
+            
+        }}
+/* ends here */
 /* together */
+@media only screen and (max-width:480px){
+    .together{
+        margin:-11px auto;
+        padding-left: 66px;
+}}
+@media only screen and (min-width:480px){
+    .together{
+        margin:-12px auto; 
+        padding-left: 36px; 
+}}
+@media only screen and (min-width:768px){
+    .together{
+        margin:-55px auto; 
+        padding-right: 0px;      
+}}
 @media only screen and (min-width:992px){
     .together{
-      margin:-30px 0px 0px 130px
+      margin:-30px 0px 0px -20px;
+      padding-right:60px;
 }}
 @media only screen and (min-width:1200px){
     .together{
-     margin:-32px 0px 0px 90px
+     margin:-32px 0px 0px -10px;
+     padding-right:90px;
 }}
 
 @media only screen and (max-width:480px){
@@ -20,6 +56,7 @@
         background-color: lightseagreen;
         border-radius: 20px;
         width: 90px;
+      
 }}
 @media only screen and (min-width:480px){
     .together > .navbar-nav > .nav-item > .active > .nav-link {
@@ -164,30 +201,32 @@
 /* logo */
 @media only screen and (max-width:480px){
     .logo{
-        margin-top: -60px;
-        margin-left: -220px;
+        margin: -5px 0px 0px -280px;
+       
         width:200px;
         height :100px;
        
 }}
+
 @media only screen and (min-width:480px){
     .logo{
-        margin-top: -80px;
-        margin-left: -155px;
+        margin-top: -20px;
+        margin-left: -210px;
         width:450px;
         height :150px;
 }}
 @media only screen and (min-width:768px){
     .logo{
-        margin-top: -78px;
-        margin-left: -210px;
-        width:520px;
-        height :160px;
+        margin-top: -58px;
+        margin-left: -172px;
+        width:480px;
+        height :140px;
+        
 }}
 @media only screen and (min-width:992px){
     .logo{
         margin-top: -40px;
-        margin-left: -85px;
+        margin-left: -225px;
         width:290px;
         height :130px;
 }}
@@ -210,28 +249,28 @@
     .left3 {
             background-color: "#F6F6F6";
             background-size: cover;
-            margin-top: -20px;
+            
             min-height: 640px;
     }}
     @media only screen and (max-width:480px){
     .left3 {
             background-color: "#F6F6F6";
             background-size: cover;
-            margin-top: -20px;
+           
             min-height: 320px;
         }}
     @media only screen and (min-width:768px){
         .left3 {
             background-color: "#F6F6F6";
             background-size: cover;
-            margin-top: -20px;
+            
             min-height: 640px;
     }}
     @media only screen and (min-width:1200px){
         .left3 {
             background-color: "#F6F6F6";
             background-size: cover;
-            margin-top: -20px;
+           
             min-height: 640px;
     }}
 /*ends here*/
@@ -248,18 +287,18 @@
 
 @media only screen and (min-width: 480px){
 .left5 {
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 300;
     text-align:center;
-        margin-top: 120px;
+        margin-top: 220px;
         color:lightseagreen;
 }}
 @media only screen and (max-width: 480px){
     .left5{
-        font-size: 70px;
-        font-weight: 300;
+        font-size: 60px;
+        font-weight: 260px;
         text-align:center;
-        margin-top: 120px;
+        margin-top: 220px;
         color:lightseagreen;
     }}
 @media only screen and (min-width:768px){
@@ -267,7 +306,7 @@
         font-size: 80px;
         font-weight: 300;
         text-align:center;
-        margin-top: 120px;
+        margin-top: 220px;
         color:lightseagreen;
 }}
 @media only screen and (min-width:992px){
@@ -867,7 +906,7 @@
 @media only screen and (min-width:480px){
 .left26{
         background-color:lightyellow ;
-        margin-top: -50px;
+      
         min-height: 640px;
         overflow-x: hidden;
     }}
@@ -876,18 +915,19 @@
             background-color:lightyellow ;
             min-height: 320px;
             margin-right: 0px;
+           
         }}
 @media only screena and (min-width:768px){
     .left26{
         background-color: lightyellow ;
-        margin-top: -50px;
+        
         min-height: 640px;
         overflow: hidden;
 }}
 @media only screen and (min-width:992px){
     .left26{
             background-color:lightyellow ;
-            margin-top: -50px;
+           
             min-height: 640px;
         }}
 @media only screen and (min-width:1200px){
@@ -1391,7 +1431,7 @@
 @media only screen and (min-width:480px){
     .left34{
             background-color:black ;
-            margin-top: -50px;
+           
             min-height: 640px;
             overflow-x: hidden;
             opacity: 0.8;
@@ -1403,12 +1443,12 @@
                 margin-right: 0px;
                 overflow-x: hidden;
                 opacity:0.8;
-                margin-top: -50px;
+               
             }}
     @media only screena and (min-width:768px){
         .left34{
             background-color: black ;
-            margin-top: -50px;
+           
             min-height: 640px;
             overflow: hidden;
             opacity:0.8;
@@ -1416,7 +1456,7 @@
     @media only screen and (min-width:992px){
         .left34{
                 background-color:black ;
-                margin-top: -50px;
+                
                 min-height: 640px;
                 opacity: 0.8;
             }}
@@ -1432,18 +1472,18 @@
 /* left35  > h1*/
 @media only screen and (min-width: 480px){
     .left35  {
-        font-size: 60px;
+        font-size: 70px;
         font-weight: 300;
         text-align:center;
-            margin-top: 120px;
+            margin-top: 220px;
             color:white;
     }}
     @media only screen and (max-width: 480px){
         .left35 {
-            font-size: 70px;
+            font-size: 60px;
             font-weight: 300;
             text-align:center;
-            margin-top: 120px;
+            margin-top: 220px;
             color:white;
         }}
     @media only screen and (min-width:768px){
@@ -1451,7 +1491,7 @@
             font-size: 80px;
             font-weight: 300;
             text-align:center;
-            margin-top: 120px;
+            margin-top: 220px;
             color:white;
     }}
     @media only screen and (min-width:992px){

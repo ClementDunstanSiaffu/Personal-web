@@ -17,12 +17,12 @@ import img6 from '../assets/images/logo-image1.png';
 
 function Header(){
     const [navbarColor,setNavbarColor] = useState("navbar-transparent");
-    const [navbarCollapse,setNavbarCollapse] = useState(false);
+   /* const [navbarCollapse,setNavbarCollapse] = useState(false);*/
 
-const toggleNavbarCollapse = () => {
+/*const toggleNavbarCollapse = () => {
   setNavbarCollapse(!navbarCollapse);
   document.documentElement.classList.toggle("nav-open");
-}
+}*/
 
 React.useEffect(() => {
   const updateNavbarColor = () => {
@@ -52,13 +52,12 @@ React.useEffect(() => {
 
 
     return(
-
         <Navbar className = {classnames("fixed-top",navbarColor)} expand = "lg">
             <Container>
 
-                <NavbarBrand style={{paddingLeft: "0"}}>    <img src={img6}  className="logo" ></img></NavbarBrand>
+             <div className = "left48"><NavbarBrand style={{paddingLeft: "0"}}>    <img src={img6}  className="logo" ></img></NavbarBrand></div>   
                
-                <button 
+               {/* <button 
                 arial-expanded = {navbarCollapse}
                 className = {classnames("navbar-toggler navbar-toggler",
                  {toggled:navbarCollapse}
@@ -70,12 +69,14 @@ React.useEffect(() => {
                  <span className="navbar-toggler-bar bar2"></span>
                  <span className="navbar-toggler-bar bar3"></span>
                  </div>
-                </button>
-                <Collapse 
+               </button>*/}
+                {/*<Collapse 
                     navbar
-                    isOpen={navbarCollapse}>
-                        <div className = "together">
+                isOpen={navbarCollapse} > */}
+                       {/*} <div className = "together">*/}
+                       <div className = "together">
                 <Nav navbar>
+                
                 <NavItem /*style = {right3}*/>
            
            <Link 
@@ -140,13 +141,15 @@ React.useEffect(() => {
         </NavItem>
        
        
-    
+                
                     </Nav>
-                    </div>
-                </Collapse>
+                    {/*</div>
+                </Collapse> */}
+                </div>
             </Container>
 
         </Navbar>
+        
     )
 }
 
