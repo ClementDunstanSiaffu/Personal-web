@@ -1328,7 +1328,7 @@
         display: inline-block;
         position: absolute;
         top: 70%;
-        left: 27%;
+        left: 29%;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         -moz-transform: translate(-50%, -50%);
         -webkit-transform: translate(-50%, -50%);
@@ -1398,7 +1398,7 @@
 /* left33 */
 @media only screen and (max-width:480px){
     .left33{
-        margin-left:-9px;
+        margin-left:-11px;
         margin-top:1px
 }}
 @media only screen and (min-width:480px){
