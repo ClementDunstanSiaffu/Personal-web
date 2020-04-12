@@ -1167,7 +1167,7 @@
         display: inline-block;
         position: absolute;
         top: 35%;
-        left: 37%;
+        left: 33%;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         border-top: 1px solid white;
         -moz-transform: translate(-50%, -50%);
@@ -1328,7 +1328,7 @@
         display: inline-block;
         position: absolute;
         top: 70%;
-        left: 23.5%;
+        left: 24.5%;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         -moz-transform: translate(-50%, -50%);
         -webkit-transform: translate(-50%, -50%);
