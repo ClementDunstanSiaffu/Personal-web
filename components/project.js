@@ -47,7 +47,7 @@ function Project(){
         <h1>Dolyrus BarberShop</h1>
             <p>This is the demo website for barbershop.</p>
             <h2>Tags:</h2>
-            <h3><span className = "left33">Nextjs,Express API,MongoDB</span></h3>
+            <h3><span className = "left33">Nextjs,API,MongoDB</span></h3>
             </div>
      
 	</div>
