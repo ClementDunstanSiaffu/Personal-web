@@ -1323,7 +1323,7 @@
 /* left32 h3 */
 @media only screen and (max-width:480px){
     .left30 .left32 > h3 {
-        text-align: center;
+        text-align: start;
         font-size: 12px;
         display: inline-block;
         position: absolute;
@@ -1380,7 +1380,7 @@
 }}  
 @media only screen and (min-width:1200px){
     .left30 .left32 > h3 {
-        text-align: center;
+        text-align: start;
         font-size: 16px;
         display: inline-block;
         position: absolute;
@@ -1398,7 +1398,7 @@
 /* left33 */
 @media only screen and (max-width:480px){
     .left33{
-        margin-left:18.3px;
+        margin-left:19px;
         margin-top:1px
 }}
 @media only screen and (min-width:480px){
