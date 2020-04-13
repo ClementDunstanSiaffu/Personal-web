@@ -1122,7 +1122,7 @@
         font-size: 16px;
         display: inline-block;
         position: absolute;
-        top: 10%;
+        top: 14%;
         left: 25%;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         -moz-transform: translate(-50%, -50%);
@@ -1197,8 +1197,8 @@
         font-size: 14px;
         display: inline-block;
         position: absolute;
-        top:27%;
-        left: 35%;
+        top:23%;
+        left: 39%;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         border-top: 1px solid white;
         -moz-transform: translate(-50%, -50%);
@@ -1223,7 +1223,7 @@
 }}  
 @media only screen and (min-width:1200px){
     .left30 .left32 > p{
-        text-align: center;
+        text-align: start;
         font-size: 16px;
         display: inline-block;
         position: absolute;
@@ -1276,8 +1276,8 @@
         font-size: 16px;
         display: inline-block;
         position: absolute;
-        top: 53%;
-        left: 9%;
+        top: 57%;
+        left: 7%;
         padding-bottom:8px;
         border-bottom: 2px solid white;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -1356,8 +1356,8 @@
         font-size: 14px;
         display: inline-block;
         position: absolute;
-        top: 68%;
-        left: 25%;
+        top: 69%;
+        left: 23%;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         -moz-transform: translate(-50%, -50%);
         -webkit-transform: translate(-50%, -50%);
