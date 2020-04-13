@@ -1370,7 +1370,7 @@
         font-size: 16px;
         display: inline-block;
         position: absolute;
-        top: 63%;
+        top: 64%;
         left: 20.5%;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         -moz-transform: translate(-50%, -50%);
@@ -1413,7 +1413,7 @@
 }}
 @media only screen and (min-width:992px){
     .left33{
-        margin-left:-15px;
+        margin-left:-30px;
 }}
 @media only screen and (min-width:1200px){
     .left33{
