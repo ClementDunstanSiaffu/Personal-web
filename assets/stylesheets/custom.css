@@ -28,7 +28,7 @@
 @media only screen and (max-width:480px){
     .together{
         margin:-11px auto;
-        padding-left: 66px;
+        padding-left: 59px;
 }}
 @media only screen and (min-width:480px){
     .together{
@@ -857,11 +857,11 @@
 }}
 @media only screen and (min-width:768px){
     .left23{
-        width:120px;
+        width:80px;
 }}
 @media only screen and (min-width:992px){
     .left23{
-        width:200px;
+        width:150px;
 }}
 @media only screen and (min-width:1200px){
     .left23{
@@ -1587,6 +1587,8 @@
         padding-top: 50px;
         font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         margin-bottom:80px;
+        color: white;
+        opacity:0.8;
     }}
     @media only screen and (max-width: 480px){
         .left38{
@@ -1597,6 +1599,8 @@
             padding-top: 50px;
             margin-bottom:90px;
             font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: white;
+            opacity:0.8;
         }}
     @media only screen and (min-width:768px){
         .left38{
@@ -1607,6 +1611,8 @@
             padding-top: 50px;
            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
            margin-bottom:70px;
+           color: white;
+           opacity:0.8;
         }}
     @media only screen and (min-width:992px){
         .left38{
@@ -1617,6 +1623,8 @@
        padding-top: 50px;
        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
        margin-bottom:60px;
+       color: white;
+       opacity:0.8;
     }}
     
     @media only screen and (min-width:1200px){
@@ -1628,6 +1636,8 @@
             border-top: solid 1px grey;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             margin-bottom:50px;
+            color: white;
+            opacity:0.8;
         }} 
 
     /* left40 */
@@ -1690,5 +1700,64 @@
     margin-left:-20px;
     margin-bottom:30px;
 }}
+
+/* left50 */
+@media only screen and (min-width: 480px){
+    .left50 {
+        font-size: 24px;
+        font-weight: lighter;
+        text-align:center;
+        border-bottom: solid 1px grey;
+        padding-bottom: 50px;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color:white;
+        opacity:0.8;
+    }}
+    @media only screen and (max-width: 480px){
+        .left50{
+            font-size: 20px;
+            font-weight: lighter;
+            text-align:center;
+            border-bottom: solid 1px grey;
+            padding-bottom: 50px;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color:white;
+            opacity:0.8;
+        }}
+    @media only screen and (min-width:768px){
+        .left50{
+            font-size: 30px;
+            font-weight: lighter;
+            text-align: center;
+            border-bottom: solid 1px grey;
+            padding-bottom: 50px;
+           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+           color:white;
+           opacity:0.8;
+        }}
+    @media only screen and (min-width:992px){
+        .left50{
+        font-size: 30px;
+        font-weight:lighter;
+       text-align: center;
+       border-bottom: solid 1px grey;
+       padding-bottom: 50px;
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       color:white;
+       opacity:0.8;
+    }}
+    
+    @media only screen and (min-width:1200px){
+        .left50{
+            font-size: 30px;
+            font-weight: lighter;
+            text-align:center;
+            padding-bottom: 50px;
+            border-bottom: solid 1px grey;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color:white;
+            opacity:0.8;
+        }} 
+/* end */
 
 /* contact ends here */

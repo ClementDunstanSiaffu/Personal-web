@@ -13,7 +13,7 @@ function Contact (){
              <Container>
                  <div  data-aos = "zoom-in">
                      <h1 className = "left35">Contact</h1>
-                     <p className = "left6">“If I had asked people what they wanted, 
+                     <p className = "left50">“If I had asked people what they wanted, 
                      they would have said faster horses. ” - Henry Ford</p>
                     <div className = "left37">
                         <span>

@@ -159,6 +159,16 @@ function Ability(){
                              <Progress animated color="success" value={70} className="left23" style = {{height:15}} />                             </td>
                          </tr>
                          
+                         <tr>
+                             <td className="left22" >
+                               Heroku<br />(3 months)
+                             </td>
+                             <td style = {{padding:20}}>
+                             <div className="text-center">70%</div>
+                             <Progress animated color="success" value={70} className="left23" style = {{height:15}} />                             </td>
+                         </tr>
+                         
+
                          </tbody>
                          </table>
                       </Col>
@@ -166,6 +176,8 @@ function Ability(){
                           <Col xs="auto">
                           <table>
                      <tbody className = "left12">
+
+                     
                           <tr>
                              <td className="left22"><span className = "left24">IMVS4200<br />(2 months)</span></td>
                              <td style={{padding:20}}>
@@ -174,7 +186,14 @@ function Ability(){
                              </td>
                              </tr>   
                                
-                             
+                             <tr>
+                             <td className="left22" >
+                               Zeit/Now<br />(2 months)
+                             </td>
+                             <td style = {{padding:20}}>
+                             <div className="text-center">70%</div>
+                             <Progress animated color="success" value={70} className="left23" style = {{height:15}} />                             </td>
+                         </tr> 
                          
                          <tr>
                              <td className="left22" >
